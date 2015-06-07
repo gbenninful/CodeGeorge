@@ -32,9 +32,9 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-  })
-  .run(function ($rootScope) {
-    $rootScope.$on('$routeChangeSuccess', function () {
-      $(document).foundation('interchange', 'reflow');
-    });
   });
+/* .run(function ($rootScope) {
+ $rootScope.$on('$routeChangeSuccess', function () {
+ $(document).foundation('interchange', 'reflow');
+ });
+ });*/

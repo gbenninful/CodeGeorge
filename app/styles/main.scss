@@ -146,8 +146,21 @@ section {
 }
 
 footer {
+ // padding: 3% 0;
   background-color: #121317;
   height: 150px;
-  //color: #fff;
+
+  p {
+    //color: #939393;
+    line-height: 150px;
+    color: #fff;
+    word-spacing: 1px;
+    opacity: 0.6;
+    font-size: 0.9em;
+  }
+
+  a {
+    color: #2196F3;
+  }
 }
 
