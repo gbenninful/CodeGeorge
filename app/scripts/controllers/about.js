@@ -1,12 +1,12 @@
-'use strict';
+/*'use strict';
 
-/**
+/!**
  * @ngdoc function
  * @name codeGeorgeApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
  * Controller of the codeGeorgeApp
- */
+ *!/
 angular.module('codeGeorgeApp')
   .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
@@ -14,4 +14,4 @@ angular.module('codeGeorgeApp')
       'AngularJS',
       'Karma'
     ];
-  });
+  });*/

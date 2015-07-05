@@ -1,25 +1,269 @@
-/*------------------------------------------------PHONE DEFAULT------------------------------------------*/
+/*PHONE DEFAULT*/
+.hero-text {
+  position: absolute;
+  top: 250px;
+  width: 100%;
+
+  h1 {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  h3 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.0rem;
+  }
+}
 
 
 
-/*-------------------------------------------------TABLET CSS---------------------------------------------*/
+.about-me {
+  padding: 15% 0;
+
+  .row {
+    padding: 2% 0;
+  }
+
+  h6 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 10%;
+    opacity: 0.8;
+  }
+
+  h3 {
+    font-weight: 400;
+  }
+
+  p {
+    max-width: 500px;
+    margin: auto;
+    font-size: 1.1rem;
+    color: #939393;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-bottom: 15%;
+  }
+
+}
+
+
+section {
+  .best-buy {
+    background-color: #F7F7F7;
+    padding: 15% 0;
+    margin-top: -10%;
+  }
+
+  .firefighters {
+    background-color: #fff;
+    padding: 15% 0;
+  }
+
+  .job-market {
+    background-color: #E7E7E9;
+    padding: 15% 0;
+  }
+
+  .luxury-homes {
+    background-color: #fff;
+    padding: 15% 0;
+  }
+}
+
+
+.portfolio {
+
+  h5 {
+    font-size: 1.2rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-bottom: 20%;
+    font-weight: 600;
+  }
+
+  .portfolio-image {
+    border: #b0b0b0 solid 1px;
+    margin-bottom: 5%;
+  }
+
+  .row {
+    max-width: 1120px;
+  }
+
+}
+
+
+footer {
+  background-color: #121317;
+  height: 120px;
+  overflow: hidden;
+
+
+  p {
+    line-height: 120px;
+    color: #fff;
+    word-spacing: 1px;
+    opacity: 0.6;
+    font-size: 0.9em;
+  }
+
+  a {
+    color: #2196F3;
+  }
+}
+
+
+
+/*TABLET CSS*/
 @media only screen and (min-width: 40.063em){
 
+  .hero-text {
+    top: 300px;
+
+    h1 {
+      font-size: 3.0rem;
+      font-weight: 300;
+    }
+
+    h3 {
+      font-weight: 400;
+    }
+  }
 
 
-}    /*end tablet*/
+  .about-me {
+    padding: 8% 0;
 
-/*------------------------------------------------DESKTOP CSS ---------------------------------------------*/
+    h6 {
+      margin-bottom: 5%;
+    }
+
+    p {
+      margin-bottom: 10%;
+    }
+
+  }
+
+
+  section {
+    .best-buy {
+      padding: 9% 0;
+      margin-top: -5%;
+    }
+
+    .firefighters {
+      padding: 9% 0;
+    }
+
+    .job-market {
+      padding: 9% 0;
+    }
+
+    .luxury-homes {
+      padding: 9% 0;
+    }
+  }
+
+
+  .portfolio {
+    h5 {
+      margin-bottom: 10%;
+    }
+
+    .portfolio-image {
+      margin-bottom: 3%;
+    }
+  }
+
+
+  footer {
+    height: 130px;
+
+    p {
+      line-height: 130px;
+    }
+  }
+
+}
+
+
+
+/*DESKTOP CSS*/
 @media only screen and (min-width: 64.063em){
 
+  .hero-text {
+    top: 400px;
+
+    h1 {
+      font-size: 4.5rem;
+      font-weight: 300;
+    }
+
+    h3 {
+      font-weight: 400;
+    }
+  }
 
 
+  .about-me {
+    padding: 3% 0;
+
+    h6 {
+      margin-bottom: 1%;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+  }
 
 
+  section {
+    .best-buy {
+      padding: 6% 0;
+      margin-top: 0;
+    }
+
+    .firefighters {
+      padding: 6% 0;
+    }
+
+    .job-market {
+      padding: 6% 0;
+    }
+
+    .luxury-homes {
+      padding: 6% 0;
+    }
+  }
 
 
+  .portfolio {
+    h5 {
+      margin-bottom: 5%;
+    }
 
-}    /*end desktop*/
+    .portfolio-image {
+      margin-bottom: 1%;
+    }
+  }
+
+
+  footer {
+    height: 150px;
+
+    p {
+      line-height: 150px;
+    }
+  }
+}
 
 
 
